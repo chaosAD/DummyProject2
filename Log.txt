@@ -1,0 +1,2295 @@
+user13@D210-LECT MINGW32 /c/Vennie/Project/C
+$ ceedling new DummyProject
+Welcome to Ceedling!
+      create  DummyProject/vendor/ceedling/docs/CeedlingPacket.md
+      create  DummyProject/vendor/ceedling/docs/CException.md
+      create  DummyProject/vendor/ceedling/docs/CMock_Summary.md
+      create  DummyProject/vendor/ceedling/docs/UnityAssertionsCheatSheetSuitableforPrintingandPossiblyFraming.pdf
+      create  DummyProject/vendor/ceedling/docs/UnityAssertionsReference.md
+      create  DummyProject/vendor/ceedling/docs/UnityConfigurationGuide.md
+      create  DummyProject/vendor/ceedling/docs/UnityGettingStartedGuide.md
+      create  DummyProject/vendor/ceedling/docs/UnityHelperScriptsGuide.md
+      create  DummyProject/vendor/ceedling/docs/ThrowTheSwitchCodingStandard.md
+      create  DummyProject/vendor/ceedling/plugins
+      create  DummyProject/vendor/ceedling/plugins/bullseye/assets/template.erb
+      create  DummyProject/vendor/ceedling/plugins/bullseye/bullseye.rake
+      create  DummyProject/vendor/ceedling/plugins/bullseye/config/defaults.yml
+      create  DummyProject/vendor/ceedling/plugins/bullseye/lib/bullseye.rb
+      create  DummyProject/vendor/ceedling/plugins/bullseye/readme.txt
+      create  DummyProject/vendor/ceedling/plugins/command_hooks/README.md
+      create  DummyProject/vendor/ceedling/plugins/command_hooks/lib/command_hooks.rb
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/README.md
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/Rakefile
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/project.yml
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/rakefile.rb
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/bar.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/bar.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/custom_types.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/display.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/display.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/event_processor.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/event_processor.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/foo.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/foo.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/subfolder/zzz.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/subfolder/zzz.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/test/test_event_processor.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/examples/fff_example/test/test_foo.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/lib/fake_function_framework.rb
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/lib/fff_mock_generator.rb
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/spec/fff_mock_header_generator_spec.rb
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/spec/fff_mock_source_generator_spec.rb
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/spec/header_generator.rb
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/spec/spec_helper.rb
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/src/fff_unity_helper.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/LICENSE
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/Makefile
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/README.md
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/buildandtest
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/Makefile
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/Makefile
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.test.cpp
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.test.fff.cpp
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/hardware_abstraction.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/registers.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/DISPLAY.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/Kata.txt
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/Makefile
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/SYSTEM.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI_test_ansic.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI_test_cpp.cpp
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/test_suite_template.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/fakegen.rb
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/fff.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/Makefile
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest-all.cc
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest-main.cc
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/Makefile
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/c_test_framework.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_c.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_cpp.cpp
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_global_c.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_global_cpp.cpp
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/global_fakes.c
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/global_fakes.h
+      create  DummyProject/vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/test_cases.include
+      create  DummyProject/vendor/ceedling/plugins/gcov/README.md
+      create  DummyProject/vendor/ceedling/plugins/gcov/assets/template.erb
+      create  DummyProject/vendor/ceedling/plugins/gcov/config/defaults.yml
+      create  DummyProject/vendor/ceedling/plugins/gcov/gcov.rake
+      create  DummyProject/vendor/ceedling/plugins/gcov/lib/gcov.rb
+      create  DummyProject/vendor/ceedling/plugins/gcov/lib/gcov_constants.rb
+      create  DummyProject/vendor/ceedling/plugins/junit_tests_report/lib/junit_tests_report.rb
+      create  DummyProject/vendor/ceedling/plugins/module_generator/config/module_generator.yml
+      create  DummyProject/vendor/ceedling/plugins/module_generator/lib/module_generator.rb
+      create  DummyProject/vendor/ceedling/plugins/module_generator/module_generator.rake
+      create  DummyProject/vendor/ceedling/plugins/stdout_gtestlike_tests_report/assets/template.erb
+      create  DummyProject/vendor/ceedling/plugins/stdout_gtestlike_tests_report/assets/template.erb copy
+      create  DummyProject/vendor/ceedling/plugins/stdout_gtestlike_tests_report/config/stdout_gtestlike_tests_report.yml
+      create  DummyProject/vendor/ceedling/plugins/stdout_gtestlike_tests_report/lib/stdout_gtestlike_tests_report.rb
+      create  DummyProject/vendor/ceedling/plugins/stdout_ide_tests_report/config/stdout_ide_tests_report.yml
+      create  DummyProject/vendor/ceedling/plugins/stdout_ide_tests_report/lib/stdout_ide_tests_report.rb
+      create  DummyProject/vendor/ceedling/plugins/stdout_pretty_tests_report/assets/template.erb
+      create  DummyProject/vendor/ceedling/plugins/stdout_pretty_tests_report/config/stdout_pretty_tests_report.yml
+      create  DummyProject/vendor/ceedling/plugins/stdout_pretty_tests_report/lib/stdout_pretty_tests_report.rb
+      create  DummyProject/vendor/ceedling/plugins/subprojects/README.md
+      create  DummyProject/vendor/ceedling/plugins/subprojects/config/defaults.yml
+      create  DummyProject/vendor/ceedling/plugins/subprojects/lib/subprojects.rb
+      create  DummyProject/vendor/ceedling/plugins/subprojects/subprojects.rake
+      create  DummyProject/vendor/ceedling/plugins/teamcity_tests_report/config/teamcity_tests_report.yml
+      create  DummyProject/vendor/ceedling/plugins/teamcity_tests_report/lib/teamcity_tests_report.rb
+      create  DummyProject/vendor/ceedling/plugins/warnings_report/lib/warnings_report.rb
+      create  DummyProject/vendor/ceedling/plugins/xml_tests_report/lib/xml_tests_report.rb
+      create  DummyProject/vendor/ceedling/lib
+      create  DummyProject/vendor/ceedling/lib/ceedling.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/build_invoker_utils.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/cacheinator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/cacheinator_helper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/cmock_builder.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/configurator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/configurator_builder.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/configurator_plugins.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/configurator_setup.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/configurator_validator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/constants.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/defaults.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/dependinator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/erb_wrapper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/file_finder.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/file_finder_helper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/file_path_utils.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/file_system_utils.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/file_system_wrapper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/file_wrapper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/flaginator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/generator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/generator_helper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/generator_test_results.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/generator_test_results_sanity_checker.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/generator_test_runner.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/loginator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/makefile.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/objects.yml
+      create  DummyProject/vendor/ceedling/lib/ceedling/par_map.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/plugin.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/plugin_builder.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/plugin_manager.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/plugin_manager_helper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/plugin_reportinator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/plugin_reportinator_helper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/preprocessinator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/preprocessinator_extractor.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/preprocessinator_file_handler.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/preprocessinator_helper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/preprocessinator_includes_handler.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/project_config_manager.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/project_file_loader.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/rake_utils.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/rake_wrapper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/rakefile.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/release_invoker.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/release_invoker_helper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/reportinator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/rules_cmock.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/rules_preprocess.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/rules_release.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/rules_release_deep_dependencies.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/rules_tests.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/rules_tests_deep_dependencies.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/setupinator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/stream_wrapper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/streaminator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/streaminator_helper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/system_utils.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/system_wrapper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/target_loader.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/task_invoker.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/tasks_base.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/tasks_filesystem.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/tasks_release.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/tasks_release_deep_dependencies.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/tasks_tests.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/tasks_tests_deep_dependencies.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/tasks_vendor.rake
+      create  DummyProject/vendor/ceedling/lib/ceedling/test_includes_extractor.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/test_invoker.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/test_invoker_helper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/tool_executor.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/tool_executor_helper.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/verbosinator.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/version.rb
+      create  DummyProject/vendor/ceedling/lib/ceedling/version.rb.erb
+      create  DummyProject/vendor/ceedling/lib/ceedling/yaml_wrapper.rb
+      create  DummyProject/vendor/ceedling/vendor/c_exception/lib
+      create  DummyProject/vendor/ceedling/vendor/c_exception/lib/CException.c
+      create  DummyProject/vendor/ceedling/vendor/c_exception/lib/CException.h
+      create  DummyProject/vendor/ceedling/vendor/c_exception/release
+      create  DummyProject/vendor/ceedling/vendor/c_exception/release/build.info
+      create  DummyProject/vendor/ceedling/vendor/c_exception/release/version.info
+      create  DummyProject/vendor/ceedling/vendor/cmock/config
+      create  DummyProject/vendor/ceedling/vendor/cmock/config/production_environment.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/config/test_environment.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_config.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_file_writer.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_generator.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_array.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_callback.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_cexception.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_expect.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_expect_any_args.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_ignore.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_ignore_arg.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_return_thru_ptr.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_generator_utils.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_header_parser.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_plugin_manager.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/lib/cmock_unityhelper_parser.rb
+      create  DummyProject/vendor/ceedling/vendor/cmock/release
+      create  DummyProject/vendor/ceedling/vendor/cmock/release/build.info
+      create  DummyProject/vendor/ceedling/vendor/cmock/release/version.info
+      create  DummyProject/vendor/ceedling/vendor/cmock/src
+      create  DummyProject/vendor/ceedling/vendor/cmock/src/cmock.c
+      create  DummyProject/vendor/ceedling/vendor/cmock/src/cmock.h
+      create  DummyProject/vendor/ceedling/vendor/cmock/src/cmock_internals.h
+      create  DummyProject/vendor/ceedling/vendor/deep_merge/lib
+      create  DummyProject/vendor/ceedling/vendor/deep_merge/lib/deep_merge.rb
+      create  DummyProject/vendor/ceedling/vendor/diy/lib
+      create  DummyProject/vendor/ceedling/vendor/diy/lib/diy.rb
+      create  DummyProject/vendor/ceedling/vendor/diy/lib/diy/factory.rb
+      create  DummyProject/vendor/ceedling/vendor/unity/auto
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/colour_prompt.rb
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/colour_reporter.rb
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/generate_config.yml
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/generate_module.rb
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/generate_test_runner.rb
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/parse_output.rb
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/stylize_as_junit.rb
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/test_file_filter.rb
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/type_sanitizer.rb
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/unity_test_summary.py
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/unity_test_summary.rb
+      create  DummyProject/vendor/ceedling/vendor/unity/auto/unity_to_junit.py
+      create  DummyProject/vendor/ceedling/vendor/unity/release
+      create  DummyProject/vendor/ceedling/vendor/unity/release/build.info
+      create  DummyProject/vendor/ceedling/vendor/unity/release/version.info
+      create  DummyProject/vendor/ceedling/vendor/unity/src
+      create  DummyProject/vendor/ceedling/vendor/unity/src/unity.c
+      create  DummyProject/vendor/ceedling/vendor/unity/src/unity.h
+      create  DummyProject/vendor/ceedling/vendor/unity/src/unity_internals.h
+      create  DummyProject/project.yml
+
+Project 'DummyProject' created!
+ - Tool documentation is located in vendor/ceedling/docs
+ - Execute 'ceedling help' to view available test & build tasks
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C
+$ cd DummyProject/
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject
+$ ls
+build/  project.yml  src/  test/  vendor/
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject
+$ git init
+Initialized empty Git repository in C:/Vennie/Project/C/DummyProject/.git/
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        project.yml
+        vendor/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git add project.yml
+warning: LF will be replaced by CRLF in project.yml.
+The file will have its original line endings in your working directory.
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   project.yml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        vendor/
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git rm --cached  project.yml
+rm 'project.yml'
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        project.yml
+        vendor/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git add --all
+warning: LF will be replaced by CRLF in project.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/docs/CException.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/docs/CMock_Summary.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/docs/CeedlingPacket.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/docs/ThrowTheSwitchCodingStandard.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/docs/UnityAssertionsReference.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/docs/UnityConfigurationGuide.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/docs/UnityGettingStartedGuide.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/docs/UnityHelperScriptsGuide.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/build_invoker_utils.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/cacheinator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/cacheinator_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/cmock_builder.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/configurator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/configurator_builder.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/configurator_plugins.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/configurator_setup.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/configurator_validator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/constants.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/defaults.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/dependinator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/erb_wrapper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/file_finder.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/file_finder_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/file_path_utils.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/file_system_utils.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/file_system_wrapper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/file_wrapper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/flaginator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/generator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/generator_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/generator_test_results.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/generator_test_results_sanity_checker.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/generator_test_runner.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/loginator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/makefile.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/objects.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/par_map.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/plugin.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/plugin_builder.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/plugin_manager.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/plugin_manager_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/plugin_reportinator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/plugin_reportinator_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/preprocessinator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/preprocessinator_extractor.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/preprocessinator_file_handler.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/preprocessinator_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/preprocessinator_includes_handler.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/project_config_manager.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/project_file_loader.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/rake_utils.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/rake_wrapper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/rakefile.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/release_invoker.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/release_invoker_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/reportinator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/rules_cmock.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/rules_preprocess.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/rules_release.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/rules_release_deep_dependencies.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/rules_tests.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/rules_tests_deep_dependencies.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/setupinator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/stream_wrapper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/streaminator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/streaminator_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/system_utils.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/system_wrapper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/target_loader.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/task_invoker.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/tasks_base.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/tasks_filesystem.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/tasks_release.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/tasks_release_deep_dependencies.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/tasks_tests.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/tasks_tests_deep_dependencies.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/tasks_vendor.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/test_includes_extractor.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/test_invoker.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/test_invoker_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/tool_executor.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/tool_executor_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/verbosinator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/version.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/version.rb.erb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/lib/ceedling/yaml_wrapper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/bullseye/assets/template.erb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/bullseye/bullseye.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/bullseye/config/defaults.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/bullseye/lib/bullseye.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/command_hooks/README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/command_hooks/lib/command_hooks.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/Rakefile.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/project.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/rakefile.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/bar.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/bar.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/custom_types.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/display.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/display.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/event_processor.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/event_processor.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/foo.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/foo.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/subfolder/zzz.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/subfolder/zzz.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/test/test_event_processor.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/examples/fff_example/test/test_foo.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/lib/fake_function_framework.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/lib/fff_mock_generator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/spec/fff_mock_header_generator_spec.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/spec/fff_mock_source_generator_spec.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/spec/header_generator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/spec/spec_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/src/fff_unity_helper.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/LICENSE.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/Makefile.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/buildandtest.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/Makefile.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/Makefile.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.test.cpp.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.test.fff.cpp.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/hardware_abstraction.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/registers.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/DISPLAY.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/Kata.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/Makefile.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/SYSTEM.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI_test_ansic.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI_test_cpp.cpp.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/test_suite_template.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/fakegen.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/fff.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/Makefile.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest-all.cc.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest-main.cc.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/Makefile.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/c_test_framework.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_c.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_cpp.cpp.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_global_c.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_global_cpp.cpp.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/global_fakes.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/global_fakes.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/test_cases.include.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/gcov/README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/gcov/assets/template.erb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/gcov/config/defaults.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/gcov/gcov.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/gcov/lib/gcov.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/gcov/lib/gcov_constants.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/junit_tests_report/lib/junit_tests_report.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/module_generator/config/module_generator.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/module_generator/lib/module_generator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/module_generator/module_generator.rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/stdout_gtestlike_tests_report/assets/template.erb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/stdout_gtestlike_tests_report/assets/template.erb copy.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/stdout_gtestlike_tests_report/config/stdout_gtestlike_tests_report.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/stdout_gtestlike_tests_report/lib/stdout_gtestlike_tests_report.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/stdout_ide_tests_report/config/stdout_ide_tests_report.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/stdout_ide_tests_report/lib/stdout_ide_tests_report.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/stdout_pretty_tests_report/assets/template.erb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/stdout_pretty_tests_report/config/stdout_pretty_tests_report.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/stdout_pretty_tests_report/lib/stdout_pretty_tests_report.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/teamcity_tests_report/config/teamcity_tests_report.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/teamcity_tests_report/lib/teamcity_tests_report.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/warnings_report/lib/warnings_report.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/plugins/xml_tests_report/lib/xml_tests_report.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/c_exception/lib/CException.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/c_exception/lib/CException.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/c_exception/release/build.info.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/c_exception/release/version.info.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/config/production_environment.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/config/test_environment.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_config.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_file_writer.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_generator.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_array.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_callback.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_cexception.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_expect.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_expect_any_args.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_ignore.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_ignore_arg.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_return_thru_ptr.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_generator_utils.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_header_parser.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_plugin_manager.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/lib/cmock_unityhelper_parser.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/release/build.info.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/release/version.info.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/src/cmock.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/src/cmock.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/cmock/src/cmock_internals.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/deep_merge/lib/deep_merge.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/diy/lib/diy.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/diy/lib/diy/factory.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/colour_prompt.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/colour_reporter.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/generate_config.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/generate_module.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/generate_test_runner.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/parse_output.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/stylize_as_junit.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/test_file_filter.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/type_sanitizer.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/unity_test_summary.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/unity_test_summary.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/auto/unity_to_junit.py.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/release/build.info.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/release/version.info.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/src/unity.c.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/src/unity.h.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in vendor/ceedling/vendor/unity/src/unity_internals.h.
+The file will have its original line endings in your working directory.
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git statsu
+git: 'statsu' is not a git command. See 'git --help'.
+
+Did you mean this?
+        status
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   project.yml
+        new file:   vendor/ceedling/docs/CException.md
+        new file:   vendor/ceedling/docs/CMock_Summary.md
+        new file:   vendor/ceedling/docs/CeedlingPacket.md
+        new file:   vendor/ceedling/docs/ThrowTheSwitchCodingStandard.md
+        new file:   vendor/ceedling/docs/UnityAssertionsCheatSheetSuitableforPrintingandPossiblyFraming.pdf
+        new file:   vendor/ceedling/docs/UnityAssertionsReference.md
+        new file:   vendor/ceedling/docs/UnityConfigurationGuide.md
+        new file:   vendor/ceedling/docs/UnityGettingStartedGuide.md
+        new file:   vendor/ceedling/docs/UnityHelperScriptsGuide.md
+        new file:   vendor/ceedling/lib/ceedling.rb
+        new file:   vendor/ceedling/lib/ceedling/build_invoker_utils.rb
+        new file:   vendor/ceedling/lib/ceedling/cacheinator.rb
+        new file:   vendor/ceedling/lib/ceedling/cacheinator_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/cmock_builder.rb
+        new file:   vendor/ceedling/lib/ceedling/configurator.rb
+        new file:   vendor/ceedling/lib/ceedling/configurator_builder.rb
+        new file:   vendor/ceedling/lib/ceedling/configurator_plugins.rb
+        new file:   vendor/ceedling/lib/ceedling/configurator_setup.rb
+        new file:   vendor/ceedling/lib/ceedling/configurator_validator.rb
+        new file:   vendor/ceedling/lib/ceedling/constants.rb
+        new file:   vendor/ceedling/lib/ceedling/defaults.rb
+        new file:   vendor/ceedling/lib/ceedling/dependinator.rb
+        new file:   vendor/ceedling/lib/ceedling/erb_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/file_finder.rb
+        new file:   vendor/ceedling/lib/ceedling/file_finder_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/file_path_utils.rb
+        new file:   vendor/ceedling/lib/ceedling/file_system_utils.rb
+        new file:   vendor/ceedling/lib/ceedling/file_system_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/file_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/flaginator.rb
+        new file:   vendor/ceedling/lib/ceedling/generator.rb
+        new file:   vendor/ceedling/lib/ceedling/generator_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/generator_test_results.rb
+        new file:   vendor/ceedling/lib/ceedling/generator_test_results_sanity_checker.rb
+        new file:   vendor/ceedling/lib/ceedling/generator_test_runner.rb
+        new file:   vendor/ceedling/lib/ceedling/loginator.rb
+        new file:   vendor/ceedling/lib/ceedling/makefile.rb
+        new file:   vendor/ceedling/lib/ceedling/objects.yml
+        new file:   vendor/ceedling/lib/ceedling/par_map.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin_builder.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin_manager.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin_manager_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin_reportinator.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin_reportinator_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/preprocessinator.rb
+        new file:   vendor/ceedling/lib/ceedling/preprocessinator_extractor.rb
+        new file:   vendor/ceedling/lib/ceedling/preprocessinator_file_handler.rb
+        new file:   vendor/ceedling/lib/ceedling/preprocessinator_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/preprocessinator_includes_handler.rb
+        new file:   vendor/ceedling/lib/ceedling/project_config_manager.rb
+        new file:   vendor/ceedling/lib/ceedling/project_file_loader.rb
+        new file:   vendor/ceedling/lib/ceedling/rake_utils.rb
+        new file:   vendor/ceedling/lib/ceedling/rake_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/rakefile.rb
+        new file:   vendor/ceedling/lib/ceedling/release_invoker.rb
+        new file:   vendor/ceedling/lib/ceedling/release_invoker_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/reportinator.rb
+        new file:   vendor/ceedling/lib/ceedling/rules_cmock.rake
+        new file:   vendor/ceedling/lib/ceedling/rules_preprocess.rake
+        new file:   vendor/ceedling/lib/ceedling/rules_release.rake
+        new file:   vendor/ceedling/lib/ceedling/rules_release_deep_dependencies.rake
+        new file:   vendor/ceedling/lib/ceedling/rules_tests.rake
+        new file:   vendor/ceedling/lib/ceedling/rules_tests_deep_dependencies.rake
+        new file:   vendor/ceedling/lib/ceedling/setupinator.rb
+        new file:   vendor/ceedling/lib/ceedling/stream_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/streaminator.rb
+        new file:   vendor/ceedling/lib/ceedling/streaminator_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/system_utils.rb
+        new file:   vendor/ceedling/lib/ceedling/system_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/target_loader.rb
+        new file:   vendor/ceedling/lib/ceedling/task_invoker.rb
+        new file:   vendor/ceedling/lib/ceedling/tasks_base.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_filesystem.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_release.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_release_deep_dependencies.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_tests.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_tests_deep_dependencies.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_vendor.rake
+        new file:   vendor/ceedling/lib/ceedling/test_includes_extractor.rb
+        new file:   vendor/ceedling/lib/ceedling/test_invoker.rb
+        new file:   vendor/ceedling/lib/ceedling/test_invoker_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/tool_executor.rb
+        new file:   vendor/ceedling/lib/ceedling/tool_executor_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/verbosinator.rb
+        new file:   vendor/ceedling/lib/ceedling/version.rb
+        new file:   vendor/ceedling/lib/ceedling/version.rb.erb
+        new file:   vendor/ceedling/lib/ceedling/yaml_wrapper.rb
+        new file:   vendor/ceedling/plugins/bullseye/assets/template.erb
+        new file:   vendor/ceedling/plugins/bullseye/bullseye.rake
+        new file:   vendor/ceedling/plugins/bullseye/config/defaults.yml
+        new file:   vendor/ceedling/plugins/bullseye/lib/bullseye.rb
+        new file:   vendor/ceedling/plugins/bullseye/readme.txt
+        new file:   vendor/ceedling/plugins/command_hooks/README.md
+        new file:   vendor/ceedling/plugins/command_hooks/lib/command_hooks.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/README.md
+        new file:   vendor/ceedling/plugins/fake_function_framework/Rakefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/project.yml
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/rakefile.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/bar.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/bar.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/custom_types.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/display.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/display.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/event_processor.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/event_processor.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/foo.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/foo.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/subfolder/zzz.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/subfolder/zzz.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/test/test_event_processor.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/test/test_foo.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/lib/fake_function_framework.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/lib/fff_mock_generator.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/spec/fff_mock_header_generator_spec.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/spec/fff_mock_source_generator_spec.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/spec/header_generator.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/spec/spec_helper.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/src/fff_unity_helper.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/LICENSE
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/README.md
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/buildandtest
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.test.cpp
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.test.fff.cpp
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/hardware_abstraction.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/registers.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/DISPLAY.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/Kata.txt
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/SYSTEM.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI_test_ansic.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI_test_cpp.cpp
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/test_suite_template.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/fakegen.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/fff.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest-all.cc
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest-main.cc
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/c_test_framework.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_c.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_cpp.cpp
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_global_c.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_global_cpp.cpp
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/global_fakes.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/global_fakes.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/test_cases.include
+        new file:   vendor/ceedling/plugins/gcov/README.md
+        new file:   vendor/ceedling/plugins/gcov/assets/template.erb
+        new file:   vendor/ceedling/plugins/gcov/config/defaults.yml
+        new file:   vendor/ceedling/plugins/gcov/gcov.rake
+        new file:   vendor/ceedling/plugins/gcov/lib/gcov.rb
+        new file:   vendor/ceedling/plugins/gcov/lib/gcov_constants.rb
+        new file:   vendor/ceedling/plugins/junit_tests_report/lib/junit_tests_report.rb
+        new file:   vendor/ceedling/plugins/module_generator/config/module_generator.yml
+        new file:   vendor/ceedling/plugins/module_generator/lib/module_generator.rb
+        new file:   vendor/ceedling/plugins/module_generator/module_generator.rake
+        new file:   vendor/ceedling/plugins/stdout_gtestlike_tests_report/assets/template.erb
+        new file:   vendor/ceedling/plugins/stdout_gtestlike_tests_report/assets/template.erb copy
+        new file:   vendor/ceedling/plugins/stdout_gtestlike_tests_report/config/stdout_gtestlike_tests_report.yml
+        new file:   vendor/ceedling/plugins/stdout_gtestlike_tests_report/lib/stdout_gtestlike_tests_report.rb
+        new file:   vendor/ceedling/plugins/stdout_ide_tests_report/config/stdout_ide_tests_report.yml
+        new file:   vendor/ceedling/plugins/stdout_ide_tests_report/lib/stdout_ide_tests_report.rb
+        new file:   vendor/ceedling/plugins/stdout_pretty_tests_report/assets/template.erb
+        new file:   vendor/ceedling/plugins/stdout_pretty_tests_report/config/stdout_pretty_tests_report.yml
+        new file:   vendor/ceedling/plugins/stdout_pretty_tests_report/lib/stdout_pretty_tests_report.rb
+        new file:   vendor/ceedling/plugins/subprojects/README.md
+        new file:   vendor/ceedling/plugins/subprojects/config/defaults.yml
+        new file:   vendor/ceedling/plugins/subprojects/lib/subprojects.rb
+        new file:   vendor/ceedling/plugins/subprojects/subprojects.rake
+        new file:   vendor/ceedling/plugins/teamcity_tests_report/config/teamcity_tests_report.yml
+        new file:   vendor/ceedling/plugins/teamcity_tests_report/lib/teamcity_tests_report.rb
+        new file:   vendor/ceedling/plugins/warnings_report/lib/warnings_report.rb
+        new file:   vendor/ceedling/plugins/xml_tests_report/lib/xml_tests_report.rb
+        new file:   vendor/ceedling/vendor/c_exception/lib/CException.c
+        new file:   vendor/ceedling/vendor/c_exception/lib/CException.h
+        new file:   vendor/ceedling/vendor/c_exception/release/build.info
+        new file:   vendor/ceedling/vendor/c_exception/release/version.info
+        new file:   vendor/ceedling/vendor/cmock/config/production_environment.rb
+        new file:   vendor/ceedling/vendor/cmock/config/test_environment.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_config.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_file_writer.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_array.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_callback.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_cexception.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_expect.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_expect_any_args.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_ignore.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_ignore_arg.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_return_thru_ptr.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_utils.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_header_parser.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_plugin_manager.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_unityhelper_parser.rb
+        new file:   vendor/ceedling/vendor/cmock/release/build.info
+        new file:   vendor/ceedling/vendor/cmock/release/version.info
+        new file:   vendor/ceedling/vendor/cmock/src/cmock.c
+        new file:   vendor/ceedling/vendor/cmock/src/cmock.h
+        new file:   vendor/ceedling/vendor/cmock/src/cmock_internals.h
+        new file:   vendor/ceedling/vendor/deep_merge/lib/deep_merge.rb
+        new file:   vendor/ceedling/vendor/diy/lib/diy.rb
+        new file:   vendor/ceedling/vendor/diy/lib/diy/factory.rb
+        new file:   vendor/ceedling/vendor/unity/auto/colour_prompt.rb
+        new file:   vendor/ceedling/vendor/unity/auto/colour_reporter.rb
+        new file:   vendor/ceedling/vendor/unity/auto/generate_config.yml
+        new file:   vendor/ceedling/vendor/unity/auto/generate_module.rb
+        new file:   vendor/ceedling/vendor/unity/auto/generate_test_runner.rb
+        new file:   vendor/ceedling/vendor/unity/auto/parse_output.rb
+        new file:   vendor/ceedling/vendor/unity/auto/stylize_as_junit.rb
+        new file:   vendor/ceedling/vendor/unity/auto/test_file_filter.rb
+        new file:   vendor/ceedling/vendor/unity/auto/type_sanitizer.rb
+        new file:   vendor/ceedling/vendor/unity/auto/unity_test_summary.py
+        new file:   vendor/ceedling/vendor/unity/auto/unity_test_summary.rb
+        new file:   vendor/ceedling/vendor/unity/auto/unity_to_junit.py
+        new file:   vendor/ceedling/vendor/unity/release/build.info
+        new file:   vendor/ceedling/vendor/unity/release/version.info
+        new file:   vendor/ceedling/vendor/unity/src/unity.c
+        new file:   vendor/ceedling/vendor/unity/src/unity.h
+        new file:   vendor/ceedling/vendor/unity/src/unity_internals.h
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git config --global
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git config --global --list
+user.name=chaosad
+user.email=frasker@hotmail.com
+core.editor='C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git config --global list
+error: key does not contain a section: list
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git config --global
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git list config
+git: 'list' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+        bisect
+        rev-list
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git config list
+error: key does not contain a section: list
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw32/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+filter.lfs.process=git-lfs filter-process
+pack.packsizelimit=2g
+credential.helper=manager
+user.name=chaosad
+user.email=frasker@hotmail.com
+core.editor='C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw32/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+filter.lfs.process=git-lfs filter-process
+pack.packsizelimit=2g
+credential.helper=manager
+user.name=chaosad
+user.email=frasker@hotmail.com
+core.editor='C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git config --global user.name "chaosad"
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git config --global user.email "frasker@hotmail.com"
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw32/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+filter.lfs.process=git-lfs filter-process
+pack.packsizelimit=2g
+credential.helper=manager
+user.name=chaosad
+user.email=frasker@hotmail.com
+core.editor='C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   project.yml
+        new file:   vendor/ceedling/docs/CException.md
+        new file:   vendor/ceedling/docs/CMock_Summary.md
+        new file:   vendor/ceedling/docs/CeedlingPacket.md
+        new file:   vendor/ceedling/docs/ThrowTheSwitchCodingStandard.md
+        new file:   vendor/ceedling/docs/UnityAssertionsCheatSheetSuitableforPrintingandPossiblyFraming.pdf
+        new file:   vendor/ceedling/docs/UnityAssertionsReference.md
+        new file:   vendor/ceedling/docs/UnityConfigurationGuide.md
+        new file:   vendor/ceedling/docs/UnityGettingStartedGuide.md
+        new file:   vendor/ceedling/docs/UnityHelperScriptsGuide.md
+        new file:   vendor/ceedling/lib/ceedling.rb
+        new file:   vendor/ceedling/lib/ceedling/build_invoker_utils.rb
+        new file:   vendor/ceedling/lib/ceedling/cacheinator.rb
+        new file:   vendor/ceedling/lib/ceedling/cacheinator_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/cmock_builder.rb
+        new file:   vendor/ceedling/lib/ceedling/configurator.rb
+        new file:   vendor/ceedling/lib/ceedling/configurator_builder.rb
+        new file:   vendor/ceedling/lib/ceedling/configurator_plugins.rb
+        new file:   vendor/ceedling/lib/ceedling/configurator_setup.rb
+        new file:   vendor/ceedling/lib/ceedling/configurator_validator.rb
+        new file:   vendor/ceedling/lib/ceedling/constants.rb
+        new file:   vendor/ceedling/lib/ceedling/defaults.rb
+        new file:   vendor/ceedling/lib/ceedling/dependinator.rb
+        new file:   vendor/ceedling/lib/ceedling/erb_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/file_finder.rb
+        new file:   vendor/ceedling/lib/ceedling/file_finder_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/file_path_utils.rb
+        new file:   vendor/ceedling/lib/ceedling/file_system_utils.rb
+        new file:   vendor/ceedling/lib/ceedling/file_system_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/file_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/flaginator.rb
+        new file:   vendor/ceedling/lib/ceedling/generator.rb
+        new file:   vendor/ceedling/lib/ceedling/generator_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/generator_test_results.rb
+        new file:   vendor/ceedling/lib/ceedling/generator_test_results_sanity_checker.rb
+        new file:   vendor/ceedling/lib/ceedling/generator_test_runner.rb
+        new file:   vendor/ceedling/lib/ceedling/loginator.rb
+        new file:   vendor/ceedling/lib/ceedling/makefile.rb
+        new file:   vendor/ceedling/lib/ceedling/objects.yml
+        new file:   vendor/ceedling/lib/ceedling/par_map.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin_builder.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin_manager.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin_manager_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin_reportinator.rb
+        new file:   vendor/ceedling/lib/ceedling/plugin_reportinator_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/preprocessinator.rb
+        new file:   vendor/ceedling/lib/ceedling/preprocessinator_extractor.rb
+        new file:   vendor/ceedling/lib/ceedling/preprocessinator_file_handler.rb
+        new file:   vendor/ceedling/lib/ceedling/preprocessinator_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/preprocessinator_includes_handler.rb
+        new file:   vendor/ceedling/lib/ceedling/project_config_manager.rb
+        new file:   vendor/ceedling/lib/ceedling/project_file_loader.rb
+        new file:   vendor/ceedling/lib/ceedling/rake_utils.rb
+        new file:   vendor/ceedling/lib/ceedling/rake_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/rakefile.rb
+        new file:   vendor/ceedling/lib/ceedling/release_invoker.rb
+        new file:   vendor/ceedling/lib/ceedling/release_invoker_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/reportinator.rb
+        new file:   vendor/ceedling/lib/ceedling/rules_cmock.rake
+        new file:   vendor/ceedling/lib/ceedling/rules_preprocess.rake
+        new file:   vendor/ceedling/lib/ceedling/rules_release.rake
+        new file:   vendor/ceedling/lib/ceedling/rules_release_deep_dependencies.rake
+        new file:   vendor/ceedling/lib/ceedling/rules_tests.rake
+        new file:   vendor/ceedling/lib/ceedling/rules_tests_deep_dependencies.rake
+        new file:   vendor/ceedling/lib/ceedling/setupinator.rb
+        new file:   vendor/ceedling/lib/ceedling/stream_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/streaminator.rb
+        new file:   vendor/ceedling/lib/ceedling/streaminator_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/system_utils.rb
+        new file:   vendor/ceedling/lib/ceedling/system_wrapper.rb
+        new file:   vendor/ceedling/lib/ceedling/target_loader.rb
+        new file:   vendor/ceedling/lib/ceedling/task_invoker.rb
+        new file:   vendor/ceedling/lib/ceedling/tasks_base.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_filesystem.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_release.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_release_deep_dependencies.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_tests.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_tests_deep_dependencies.rake
+        new file:   vendor/ceedling/lib/ceedling/tasks_vendor.rake
+        new file:   vendor/ceedling/lib/ceedling/test_includes_extractor.rb
+        new file:   vendor/ceedling/lib/ceedling/test_invoker.rb
+        new file:   vendor/ceedling/lib/ceedling/test_invoker_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/tool_executor.rb
+        new file:   vendor/ceedling/lib/ceedling/tool_executor_helper.rb
+        new file:   vendor/ceedling/lib/ceedling/verbosinator.rb
+        new file:   vendor/ceedling/lib/ceedling/version.rb
+        new file:   vendor/ceedling/lib/ceedling/version.rb.erb
+        new file:   vendor/ceedling/lib/ceedling/yaml_wrapper.rb
+        new file:   vendor/ceedling/plugins/bullseye/assets/template.erb
+        new file:   vendor/ceedling/plugins/bullseye/bullseye.rake
+        new file:   vendor/ceedling/plugins/bullseye/config/defaults.yml
+        new file:   vendor/ceedling/plugins/bullseye/lib/bullseye.rb
+        new file:   vendor/ceedling/plugins/bullseye/readme.txt
+        new file:   vendor/ceedling/plugins/command_hooks/README.md
+        new file:   vendor/ceedling/plugins/command_hooks/lib/command_hooks.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/README.md
+        new file:   vendor/ceedling/plugins/fake_function_framework/Rakefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/project.yml
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/rakefile.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/bar.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/bar.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/custom_types.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/display.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/display.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/event_processor.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/event_processor.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/foo.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/foo.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/subfolder/zzz.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/subfolder/zzz.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/test/test_event_processor.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/examples/fff_example/test/test_foo.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/lib/fake_function_framework.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/lib/fff_mock_generator.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/spec/fff_mock_header_generator_spec.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/spec/fff_mock_source_generator_spec.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/spec/header_generator.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/spec/spec_helper.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/src/fff_unity_helper.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/LICENSE
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/README.md
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/buildandtest
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.test.cpp
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.test.fff.cpp
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/hardware_abstraction.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/registers.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/DISPLAY.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/Kata.txt
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/SYSTEM.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI_test_ansic.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI_test_cpp.cpp
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/test_suite_template.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/fakegen.rb
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/fff.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest-all.cc
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest-main.cc
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/Makefile
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/c_test_framework.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_c.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_cpp.cpp
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_global_c.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_global_cpp.cpp
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/global_fakes.c
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/global_fakes.h
+        new file:   vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/test_cases.include
+        new file:   vendor/ceedling/plugins/gcov/README.md
+        new file:   vendor/ceedling/plugins/gcov/assets/template.erb
+        new file:   vendor/ceedling/plugins/gcov/config/defaults.yml
+        new file:   vendor/ceedling/plugins/gcov/gcov.rake
+        new file:   vendor/ceedling/plugins/gcov/lib/gcov.rb
+        new file:   vendor/ceedling/plugins/gcov/lib/gcov_constants.rb
+        new file:   vendor/ceedling/plugins/junit_tests_report/lib/junit_tests_report.rb
+        new file:   vendor/ceedling/plugins/module_generator/config/module_generator.yml
+        new file:   vendor/ceedling/plugins/module_generator/lib/module_generator.rb
+        new file:   vendor/ceedling/plugins/module_generator/module_generator.rake
+        new file:   vendor/ceedling/plugins/stdout_gtestlike_tests_report/assets/template.erb
+        new file:   vendor/ceedling/plugins/stdout_gtestlike_tests_report/assets/template.erb copy
+        new file:   vendor/ceedling/plugins/stdout_gtestlike_tests_report/config/stdout_gtestlike_tests_report.yml
+        new file:   vendor/ceedling/plugins/stdout_gtestlike_tests_report/lib/stdout_gtestlike_tests_report.rb
+        new file:   vendor/ceedling/plugins/stdout_ide_tests_report/config/stdout_ide_tests_report.yml
+        new file:   vendor/ceedling/plugins/stdout_ide_tests_report/lib/stdout_ide_tests_report.rb
+        new file:   vendor/ceedling/plugins/stdout_pretty_tests_report/assets/template.erb
+        new file:   vendor/ceedling/plugins/stdout_pretty_tests_report/config/stdout_pretty_tests_report.yml
+        new file:   vendor/ceedling/plugins/stdout_pretty_tests_report/lib/stdout_pretty_tests_report.rb
+        new file:   vendor/ceedling/plugins/subprojects/README.md
+        new file:   vendor/ceedling/plugins/subprojects/config/defaults.yml
+        new file:   vendor/ceedling/plugins/subprojects/lib/subprojects.rb
+        new file:   vendor/ceedling/plugins/subprojects/subprojects.rake
+        new file:   vendor/ceedling/plugins/teamcity_tests_report/config/teamcity_tests_report.yml
+        new file:   vendor/ceedling/plugins/teamcity_tests_report/lib/teamcity_tests_report.rb
+        new file:   vendor/ceedling/plugins/warnings_report/lib/warnings_report.rb
+        new file:   vendor/ceedling/plugins/xml_tests_report/lib/xml_tests_report.rb
+        new file:   vendor/ceedling/vendor/c_exception/lib/CException.c
+        new file:   vendor/ceedling/vendor/c_exception/lib/CException.h
+        new file:   vendor/ceedling/vendor/c_exception/release/build.info
+        new file:   vendor/ceedling/vendor/c_exception/release/version.info
+        new file:   vendor/ceedling/vendor/cmock/config/production_environment.rb
+        new file:   vendor/ceedling/vendor/cmock/config/test_environment.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_config.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_file_writer.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_array.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_callback.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_cexception.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_expect.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_expect_any_args.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_ignore.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_ignore_arg.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_return_thru_ptr.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_generator_utils.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_header_parser.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_plugin_manager.rb
+        new file:   vendor/ceedling/vendor/cmock/lib/cmock_unityhelper_parser.rb
+        new file:   vendor/ceedling/vendor/cmock/release/build.info
+        new file:   vendor/ceedling/vendor/cmock/release/version.info
+        new file:   vendor/ceedling/vendor/cmock/src/cmock.c
+        new file:   vendor/ceedling/vendor/cmock/src/cmock.h
+        new file:   vendor/ceedling/vendor/cmock/src/cmock_internals.h
+        new file:   vendor/ceedling/vendor/deep_merge/lib/deep_merge.rb
+        new file:   vendor/ceedling/vendor/diy/lib/diy.rb
+        new file:   vendor/ceedling/vendor/diy/lib/diy/factory.rb
+        new file:   vendor/ceedling/vendor/unity/auto/colour_prompt.rb
+        new file:   vendor/ceedling/vendor/unity/auto/colour_reporter.rb
+        new file:   vendor/ceedling/vendor/unity/auto/generate_config.yml
+        new file:   vendor/ceedling/vendor/unity/auto/generate_module.rb
+        new file:   vendor/ceedling/vendor/unity/auto/generate_test_runner.rb
+        new file:   vendor/ceedling/vendor/unity/auto/parse_output.rb
+        new file:   vendor/ceedling/vendor/unity/auto/stylize_as_junit.rb
+        new file:   vendor/ceedling/vendor/unity/auto/test_file_filter.rb
+        new file:   vendor/ceedling/vendor/unity/auto/type_sanitizer.rb
+        new file:   vendor/ceedling/vendor/unity/auto/unity_test_summary.py
+        new file:   vendor/ceedling/vendor/unity/auto/unity_test_summary.rb
+        new file:   vendor/ceedling/vendor/unity/auto/unity_to_junit.py
+        new file:   vendor/ceedling/vendor/unity/release/build.info
+        new file:   vendor/ceedling/vendor/unity/release/version.info
+        new file:   vendor/ceedling/vendor/unity/src/unity.c
+        new file:   vendor/ceedling/vendor/unity/src/unity.h
+        new file:   vendor/ceedling/vendor/unity/src/unity_internals.h
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git commit -m "Created new project"
+[master (root-commit) 6cdace8] Created new project
+ 230 files changed, 57900 insertions(+)
+ create mode 100644 project.yml
+ create mode 100644 vendor/ceedling/docs/CException.md
+ create mode 100644 vendor/ceedling/docs/CMock_Summary.md
+ create mode 100644 vendor/ceedling/docs/CeedlingPacket.md
+ create mode 100644 vendor/ceedling/docs/ThrowTheSwitchCodingStandard.md
+ create mode 100644 vendor/ceedling/docs/UnityAssertionsCheatSheetSuitableforPrintingandPossiblyFraming.pdf
+ create mode 100644 vendor/ceedling/docs/UnityAssertionsReference.md
+ create mode 100644 vendor/ceedling/docs/UnityConfigurationGuide.md
+ create mode 100644 vendor/ceedling/docs/UnityGettingStartedGuide.md
+ create mode 100644 vendor/ceedling/docs/UnityHelperScriptsGuide.md
+ create mode 100644 vendor/ceedling/lib/ceedling.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/build_invoker_utils.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/cacheinator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/cacheinator_helper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/cmock_builder.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/configurator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/configurator_builder.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/configurator_plugins.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/configurator_setup.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/configurator_validator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/constants.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/defaults.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/dependinator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/erb_wrapper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/file_finder.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/file_finder_helper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/file_path_utils.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/file_system_utils.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/file_system_wrapper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/file_wrapper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/flaginator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/generator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/generator_helper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/generator_test_results.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/generator_test_results_sanity_checker.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/generator_test_runner.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/loginator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/makefile.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/objects.yml
+ create mode 100644 vendor/ceedling/lib/ceedling/par_map.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/plugin.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/plugin_builder.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/plugin_manager.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/plugin_manager_helper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/plugin_reportinator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/plugin_reportinator_helper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/preprocessinator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/preprocessinator_extractor.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/preprocessinator_file_handler.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/preprocessinator_helper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/preprocessinator_includes_handler.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/project_config_manager.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/project_file_loader.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/rake_utils.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/rake_wrapper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/rakefile.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/release_invoker.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/release_invoker_helper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/reportinator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/rules_cmock.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/rules_preprocess.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/rules_release.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/rules_release_deep_dependencies.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/rules_tests.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/rules_tests_deep_dependencies.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/setupinator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/stream_wrapper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/streaminator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/streaminator_helper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/system_utils.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/system_wrapper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/target_loader.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/task_invoker.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/tasks_base.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/tasks_filesystem.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/tasks_release.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/tasks_release_deep_dependencies.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/tasks_tests.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/tasks_tests_deep_dependencies.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/tasks_vendor.rake
+ create mode 100644 vendor/ceedling/lib/ceedling/test_includes_extractor.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/test_invoker.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/test_invoker_helper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/tool_executor.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/tool_executor_helper.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/verbosinator.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/version.rb
+ create mode 100644 vendor/ceedling/lib/ceedling/version.rb.erb
+ create mode 100644 vendor/ceedling/lib/ceedling/yaml_wrapper.rb
+ create mode 100644 vendor/ceedling/plugins/bullseye/assets/template.erb
+ create mode 100644 vendor/ceedling/plugins/bullseye/bullseye.rake
+ create mode 100644 vendor/ceedling/plugins/bullseye/config/defaults.yml
+ create mode 100644 vendor/ceedling/plugins/bullseye/lib/bullseye.rb
+ create mode 100644 vendor/ceedling/plugins/bullseye/readme.txt
+ create mode 100644 vendor/ceedling/plugins/command_hooks/README.md
+ create mode 100644 vendor/ceedling/plugins/command_hooks/lib/command_hooks.rb
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/README.md
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/Rakefile
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/project.yml
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/rakefile.rb
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/bar.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/bar.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/custom_types.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/display.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/display.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/event_processor.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/event_processor.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/foo.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/foo.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/subfolder/zzz.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/src/subfolder/zzz.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/test/test_event_processor.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/examples/fff_example/test/test_foo.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/lib/fake_function_framework.rb
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/lib/fff_mock_generator.rb
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/spec/fff_mock_header_generator_spec.rb
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/spec/fff_mock_source_generator_spec.rb
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/spec/header_generator.rb
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/spec/spec_helper.rb
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/src/fff_unity_helper.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/LICENSE
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/Makefile
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/README.md
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/buildandtest
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/Makefile
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/Makefile
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.test.cpp
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/driver.test.fff.cpp
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/hardware_abstraction.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/driver_testing/registers.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/DISPLAY.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/Kata.txt
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/Makefile
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/SYSTEM.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI_test_ansic.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/UI_test_cpp.cpp
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/examples/embedded_ui/test_suite_template.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/fakegen.rb
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/fff.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/Makefile
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest-all.cc
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest-main.cc
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/gtest/gtest.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/Makefile
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/c_test_framework.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_c.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_cpp.cpp
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_global_c.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/fff_test_global_cpp.cpp
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/global_fakes.c
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/global_fakes.h
+ create mode 100644 vendor/ceedling/plugins/fake_function_framework/vendor/fff/test/test_cases.include
+ create mode 100644 vendor/ceedling/plugins/gcov/README.md
+ create mode 100644 vendor/ceedling/plugins/gcov/assets/template.erb
+ create mode 100644 vendor/ceedling/plugins/gcov/config/defaults.yml
+ create mode 100644 vendor/ceedling/plugins/gcov/gcov.rake
+ create mode 100644 vendor/ceedling/plugins/gcov/lib/gcov.rb
+ create mode 100644 vendor/ceedling/plugins/gcov/lib/gcov_constants.rb
+ create mode 100644 vendor/ceedling/plugins/junit_tests_report/lib/junit_tests_report.rb
+ create mode 100644 vendor/ceedling/plugins/module_generator/config/module_generator.yml
+ create mode 100644 vendor/ceedling/plugins/module_generator/lib/module_generator.rb
+ create mode 100644 vendor/ceedling/plugins/module_generator/module_generator.rake
+ create mode 100644 vendor/ceedling/plugins/stdout_gtestlike_tests_report/assets/template.erb
+ create mode 100644 vendor/ceedling/plugins/stdout_gtestlike_tests_report/assets/template.erb copy
+ create mode 100644 vendor/ceedling/plugins/stdout_gtestlike_tests_report/config/stdout_gtestlike_tests_report.yml
+ create mode 100644 vendor/ceedling/plugins/stdout_gtestlike_tests_report/lib/stdout_gtestlike_tests_report.rb
+ create mode 100644 vendor/ceedling/plugins/stdout_ide_tests_report/config/stdout_ide_tests_report.yml
+ create mode 100644 vendor/ceedling/plugins/stdout_ide_tests_report/lib/stdout_ide_tests_report.rb
+ create mode 100644 vendor/ceedling/plugins/stdout_pretty_tests_report/assets/template.erb
+ create mode 100644 vendor/ceedling/plugins/stdout_pretty_tests_report/config/stdout_pretty_tests_report.yml
+ create mode 100644 vendor/ceedling/plugins/stdout_pretty_tests_report/lib/stdout_pretty_tests_report.rb
+ create mode 100644 vendor/ceedling/plugins/subprojects/README.md
+ create mode 100644 vendor/ceedling/plugins/subprojects/config/defaults.yml
+ create mode 100644 vendor/ceedling/plugins/subprojects/lib/subprojects.rb
+ create mode 100644 vendor/ceedling/plugins/subprojects/subprojects.rake
+ create mode 100644 vendor/ceedling/plugins/teamcity_tests_report/config/teamcity_tests_report.yml
+ create mode 100644 vendor/ceedling/plugins/teamcity_tests_report/lib/teamcity_tests_report.rb
+ create mode 100644 vendor/ceedling/plugins/warnings_report/lib/warnings_report.rb
+ create mode 100644 vendor/ceedling/plugins/xml_tests_report/lib/xml_tests_report.rb
+ create mode 100644 vendor/ceedling/vendor/c_exception/lib/CException.c
+ create mode 100644 vendor/ceedling/vendor/c_exception/lib/CException.h
+ create mode 100644 vendor/ceedling/vendor/c_exception/release/build.info
+ create mode 100644 vendor/ceedling/vendor/c_exception/release/version.info
+ create mode 100644 vendor/ceedling/vendor/cmock/config/production_environment.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/config/test_environment.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_config.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_file_writer.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_generator.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_array.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_callback.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_cexception.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_expect.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_expect_any_args.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_ignore.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_ignore_arg.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_generator_plugin_return_thru_ptr.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_generator_utils.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_header_parser.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_plugin_manager.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/lib/cmock_unityhelper_parser.rb
+ create mode 100644 vendor/ceedling/vendor/cmock/release/build.info
+ create mode 100644 vendor/ceedling/vendor/cmock/release/version.info
+ create mode 100644 vendor/ceedling/vendor/cmock/src/cmock.c
+ create mode 100644 vendor/ceedling/vendor/cmock/src/cmock.h
+ create mode 100644 vendor/ceedling/vendor/cmock/src/cmock_internals.h
+ create mode 100644 vendor/ceedling/vendor/deep_merge/lib/deep_merge.rb
+ create mode 100644 vendor/ceedling/vendor/diy/lib/diy.rb
+ create mode 100644 vendor/ceedling/vendor/diy/lib/diy/factory.rb
+ create mode 100644 vendor/ceedling/vendor/unity/auto/colour_prompt.rb
+ create mode 100644 vendor/ceedling/vendor/unity/auto/colour_reporter.rb
+ create mode 100644 vendor/ceedling/vendor/unity/auto/generate_config.yml
+ create mode 100644 vendor/ceedling/vendor/unity/auto/generate_module.rb
+ create mode 100644 vendor/ceedling/vendor/unity/auto/generate_test_runner.rb
+ create mode 100644 vendor/ceedling/vendor/unity/auto/parse_output.rb
+ create mode 100644 vendor/ceedling/vendor/unity/auto/stylize_as_junit.rb
+ create mode 100644 vendor/ceedling/vendor/unity/auto/test_file_filter.rb
+ create mode 100644 vendor/ceedling/vendor/unity/auto/type_sanitizer.rb
+ create mode 100644 vendor/ceedling/vendor/unity/auto/unity_test_summary.py
+ create mode 100644 vendor/ceedling/vendor/unity/auto/unity_test_summary.rb
+ create mode 100644 vendor/ceedling/vendor/unity/auto/unity_to_junit.py
+ create mode 100644 vendor/ceedling/vendor/unity/release/build.info
+ create mode 100644 vendor/ceedling/vendor/unity/release/version.info
+ create mode 100644 vendor/ceedling/vendor/unity/src/unity.c
+ create mode 100644 vendor/ceedling/vendor/unity/src/unity.h
+ create mode 100644 vendor/ceedling/vendor/unity/src/unity_internals.h
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git log
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3 (HEAD -> master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git remote -v
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git remote add origin https://github.com/chaosAD/DummyProject2.git
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git remote -v
+origin  https://github.com/chaosAD/DummyProject2.git (fetch)
+origin  https://github.com/chaosAD/DummyProject2.git (push)
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git push -u origin master
+Counting objects: 305, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (271/271), done.
+Writing objects: 100% (305/305), 603.36 KiB | 0 bytes/s, done.
+Total 305 (delta 15), reused 0 (delta 0)
+remote: Resolving deltas: 100% (15/15), done.
+To https://github.com/chaosAD/DummyProject2.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git log
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3 (HEAD -> master, origin/master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git add --all
+\
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Readme.md
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git push
+
+
+
+Everything up-to-date
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Readme.md
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ ls
+build/  project.yml  Readme.md  src/  test/  vendor/
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git log
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3 (HEAD -> master, origin/master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Readme.md
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git commit -m "Added a Readme.md file"
+[master c8c87bb] Added a Readme.md file
+ 1 file changed, 3 insertions(+)
+ create mode 100644 Readme.md
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git log
+commit c8c87bb905398edcb9b5c72ca819c9d4385fb64d (HEAD -> master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:20:21 2017 +0800
+
+    Added a Readme.md file
+
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3 (origin/master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 376 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/chaosAD/DummyProject2.git
+   6cdace8..c8c87bb  master -> master
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Readme.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Readme.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git add --all
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git sattus
+git: 'sattus' is not a git command. See 'git --help'.
+
+Did you mean this?
+        status
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Readme.md
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git log
+commit c8c87bb905398edcb9b5c72ca819c9d4385fb64d (HEAD -> master, origin/master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:20:21 2017 +0800
+
+    Added a Readme.md file
+
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git add --all
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Readme.md
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git commit -m "Rectified the text in Readme.md
+>
+> Added the missing 'how' word."
+[master 2453151] Rectified the text in Readme.md
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git log
+commit 245315199d6c42f72e2c6719f8433bd146d01da6 (HEAD -> master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:29:04 2017 +0800
+
+    Rectified the text in Readme.md
+
+    Added the missing 'how' word.
+
+commit c8c87bb905398edcb9b5c72ca819c9d4385fb64d (origin/master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:20:21 2017 +0800
+
+    Added a Readme.md file
+
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 408 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/chaosAD/DummyProject2.git
+   c8c87bb..2453151  master -> master
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git diff HEAD~1
+diff --git a/Readme.md b/Readme.md
+index aa521c8..c2cc88a 100644
+--- a/Readme.md
++++ b/Readme.md
+@@ -1,3 +1,3 @@
+ Introduction
+ ============
+-This is simple demo to show to push to GitHub.com
++This is simple demo to show how to push to GitHub.com
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Readme.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git diff
+diff --git a/Readme.md b/Readme.md
+index c2cc88a..a3274ae 100644
+--- a/Readme.md
++++ b/Readme.md
+@@ -1,3 +1,9 @@
+ Introduction
+ ============
+ This is simple demo to show how to push to GitHub.com
++
++How-To
++======
++First, you must install Git on your PC. Create an account
++in GitHub.
++
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git commit -m "Extended Readme.md
+>
+> Added 'How-to' section to explain what is needed.
+> "
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   Readme.md
+
+no changes added to commit
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git log
+commit 245315199d6c42f72e2c6719f8433bd146d01da6 (HEAD -> master, origin/master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:29:04 2017 +0800
+
+    Rectified the text in Readme.md
+
+    Added the missing 'how' word.
+
+commit c8c87bb905398edcb9b5c72ca819c9d4385fb64d
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:20:21 2017 +0800
+
+    Added a Readme.md file
+
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Readme.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git add --all
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Readme.md
+
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git commit -m "Extended Readme.md
+
+Added 'How-to' section to explain what is needed.
+"
+[master aaf64c6] Extended Readme.md
+ 1 file changed, 6 insertions(+)
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git log
+commit aaf64c6711ef3acfd7b3a682b084574e9790f79e (HEAD -> master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:36:56 2017 +0800
+
+    Extended Readme.md
+
+    Added 'How-to' section to explain what is needed.
+
+commit 245315199d6c42f72e2c6719f8433bd146d01da6 (origin/master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:29:04 2017 +0800
+
+    Rectified the text in Readme.md
+
+    Added the missing 'how' word.
+
+commit c8c87bb905398edcb9b5c72ca819c9d4385fb64d
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:20:21 2017 +0800
+
+    Added a Readme.md file
+
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git log
+commit aaf64c6711ef3acfd7b3a682b084574e9790f79e (HEAD -> master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:36:56 2017 +0800
+
+    Extended Readme.md
+
+    Added 'How-to' section to explain what is needed.
+
+commit 245315199d6c42f72e2c6719f8433bd146d01da6 (origin/master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:29:04 2017 +0800
+
+    Rectified the text in Readme.md
+
+    Added the missing 'how' word.
+
+commit c8c87bb905398edcb9b5c72ca819c9d4385fb64d
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:20:21 2017 +0800
+
+    Added a Readme.md file
+
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 473 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+
+
+
+
+To https://github.com/chaosAD/DummyProject2.git
+   2453151..aaf64c6  master -> master
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git log
+commit aaf64c6711ef3acfd7b3a682b084574e9790f79e (HEAD -> master, origin/master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:36:56 2017 +0800
+
+    Extended Readme.md
+
+    Added 'How-to' section to explain what is needed.
+
+commit 245315199d6c42f72e2c6719f8433bd146d01da6
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:29:04 2017 +0800
+
+    Rectified the text in Readme.md
+
+    Added the missing 'how' word.
+
+commit c8c87bb905398edcb9b5c72ca819c9d4385fb64d
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:20:21 2017 +0800
+
+    Added a Readme.md file
+
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git checkout  c8c87bb905398edc
+Note: checking out 'c8c87bb905398edc'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at c8c87bb... Added a Readme.md file
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject ((c8c87bb...))
+$ git log
+commit c8c87bb905398edcb9b5c72ca819c9d4385fb64d (HEAD)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:20:21 2017 +0800
+
+    Added a Readme.md file
+
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject ((c8c87bb...))
+$ git checkout master
+Previous HEAD position was c8c87bb... Added a Readme.md file
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ git log
+commit aaf64c6711ef3acfd7b3a682b084574e9790f79e (HEAD -> master, origin/master)
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:36:56 2017 +0800
+
+    Extended Readme.md
+
+    Added 'How-to' section to explain what is needed.
+
+commit 245315199d6c42f72e2c6719f8433bd146d01da6
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:29:04 2017 +0800
+
+    Rectified the text in Readme.md
+
+    Added the missing 'how' word.
+
+commit c8c87bb905398edcb9b5c72ca819c9d4385fb64d
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 14:20:21 2017 +0800
+
+    Added a Readme.md file
+
+commit 6cdace848f75bd8fe7f813d4c37948a42c5c32e3
+Author: chaosad <frasker@hotmail.com>
+Date:   Tue Aug 8 13:54:11 2017 +0800
+
+    Created new project
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$ ^C
+
+user13@D210-LECT MINGW32 /c/Vennie/Project/C/DummyProject (master)
+$
+
+
