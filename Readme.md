@@ -11,5 +11,9 @@ Next , create project on your PC and issue the following command.
 ```
 git init
 ```
-
+Then git push:
+```
+git remote add origin (url)
+git push -u origin master
+```
 
